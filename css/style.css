@@ -1,0 +1,200 @@
+/* import fonts*/
+@import url(./fonts.css);
+@import url(./partials/_variable.css);
+@import url(./partials/_global.css);
+
+/*
+    nav bar start
+*/
+
+#logo_span
+{
+    border-bottom: solid 1.2px white;
+    padding: 2px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.navbar
+{
+    padding: 1rem 5rem;
+    font-family: var(--lato);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: var(--gradient-color);
+}
+
+
+
+
+/* 
+    nav bar end
+*/
+
+/*
+    main site start
+*/
+
+.site-main .site-banner .site-title h3{
+    padding-top: 30%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+    content: '';
+    height: 2px;
+    width: 18vw;
+    background:black ;
+    display:inline-block ;
+    margin-left: 5%;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h5{
+font-size: 1.5rem;
+padding: 2rem 0;
+}
+
+.site-main .site-banner .banner-image > img{
+
+    padding: 1rem 0;
+    width: 32rem;
+    display: block;
+    margin: 120px auto 0;
+}
+
+.skills-section{
+    margin-top:20% ;
+}
+.single-brand
+{
+    display: inline-block;
+    margin: 30px auto;
+}
+
+/*start brand area*/
+
+.site-main .brand-area{
+    padding: 1rem 10rem;
+    margin-bottom:4rem ;
+}
+.site-main .brand-area .first-row .col-lg-4{
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    color:var(--semilight-color);
+    font-family: var(--lato);
+}
+
+.site-main .brand-area .experience-area{
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding:10rem 0;
+}
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.fa-phone-alt{
+    font-size: 30px;
+    color: var(--semilight-color);
+}
+.d-flex h2{
+    padding: 20px;
+    font-family: var(--lato);
+}
+.d-flex h2:nth-child(1){
+    transform: translateY(25%);
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--semilight-color);
+}
+
+
+.d-flex span i{
+    padding: 30px;
+}
+
+.experience-area .d-flex{
+    padding: 30px;
+    transition: 0.5s ease;
+    border: 1px solid var(--border-color);
+}
+.experience-area .d-flex:hover{
+    box-shadow: var(--box-shadow);
+    background: var(--semilight-color);
+    color: white;
+    transform: translateX(-10%);
+}
+
+.experience-area .d-flex:hover a{
+    color: white;
+}
+.experience-area .d-flex:hover h2{
+    color: white;
+}
+
+.experience-area .d-flex:hover i{
+    color: white;
+}
+
+/*end brand area*/
+
+/* start about projects*/
+
+
+.site-main .about-area .about-title p{
+    padding: 2rem 7rem;
+}
+.site-main .about-area .about-title h1{
+    padding: 3rem ;
+    color: var(--semilight-color);
+}
+.site-main .about-area .client{
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0;
+}
+.site-main .about-area .client h4{
+    color: var(--semilight-color);
+    padding: 1rem;  
+}
+.site-main .about-area .client p{
+    padding: 2rem;
+    text-align: justify;
+}
+
+
+.site-main .about-area .client{
+    margin: 2rem;
+    border: var(--border-color);
+}
+.client-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--semilight-color);
+}
+.client .col-lg-4{
+    height: 300px;
+}
+
+
+/* end about projects*/
+
+/*
+    main site end
+*/
